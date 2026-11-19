@@ -1,0 +1,14 @@
+# Python
+.venv/
+__pycache__/
+.pytest_cache/
+backend/audit_demo.db
+
+# Flutter
+frontend/.dart_tool/
+frontend/build/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+
+# Company reference attachment - not part of the submission
+*.xlsx

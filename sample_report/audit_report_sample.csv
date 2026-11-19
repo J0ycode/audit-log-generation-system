@@ -1,0 +1,114 @@
+Audit Log Report
+Period,2026-10-20 to 2026-11-18
+Generated at,2026-11-18 09:38:35
+Total activities,105
+INSERT count,52
+UPDATE count,41
+DELETE count,12
+
+#,Date/Time,Table,Record ID,Action,User,Changes
+1,2026-10-20 10:27:00,customers,1,INSERT,admin,"Created: name=Arun Nair, phone=9896233790, city=Kozhikode"
+2,2026-10-20 13:02:00,customers,2,INSERT,ravi.kumar,"Created: name=Meera Joseph, phone=9249827706, city=Palakkad"
+3,2026-10-20 14:24:00,customers,3,INSERT,admin,"Created: name=Rahul Das, phone=9734036506, city=Kollam"
+4,2026-10-20 15:10:00,customers,4,INSERT,admin,"Created: name=Fathima Basheer, phone=9200604502, city=Thrissur"
+5,2026-10-20 17:39:00,customers,5,INSERT,admin,"Created: name=Joseph Mathew, phone=9702632297, city=Thrissur"
+6,2026-10-21 09:14:00,customers,6,INSERT,suresh.pillai,"Created: name=Lakshmi Varma, phone=9732719211, city=Kozhikode"
+7,2026-10-21 09:47:00,loans,1,INSERT,ravi.kumar,"Created: customer_id=3, loan_type=Weekly Loan, amount=81000.0, interest_rate=15.0, status=Pending"
+8,2026-10-21 11:36:00,loans,2,INSERT,ravi.kumar,"Created: customer_id=1, loan_type=Personal Loan, amount=33000.0, interest_rate=15.0, status=Pending"
+9,2026-10-21 15:20:00,loans,3,INSERT,admin,"Created: customer_id=3, loan_type=Personal Loan, amount=164000.0, interest_rate=15.0, status=Pending"
+10,2026-10-22 09:51:00,loans,4,INSERT,admin,"Created: customer_id=5, loan_type=Weekly Loan, amount=41000.0, interest_rate=15.0, status=Pending"
+11,2026-10-22 13:34:00,loans,5,INSERT,admin,"Created: customer_id=3, loan_type=Daily Loan, amount=170000.0, interest_rate=15.0, status=Pending"
+12,2026-10-22 17:09:00,customers,7,INSERT,ravi.kumar,"Created: name=Nikhil Raj, phone=9410727955, city=Kochi"
+13,2026-10-23 09:55:00,loans,2,UPDATE,admin,status: Pending -> Approved
+14,2026-10-23 13:34:00,loans,6,INSERT,anita.menon,"Created: customer_id=5, loan_type=Gold Loan, amount=172000.0, interest_rate=18.0, status=Pending"
+15,2026-10-23 15:31:00,loans,7,INSERT,ravi.kumar,"Created: customer_id=2, loan_type=Daily Loan, amount=185000.0, interest_rate=15.0, status=Pending"
+16,2026-10-24 09:53:00,loans,8,INSERT,admin,"Created: customer_id=1, loan_type=Personal Loan, amount=64000.0, interest_rate=15.0, status=Pending"
+17,2026-10-24 13:04:00,loans,8,UPDATE,ravi.kumar,status: Pending -> Approved
+18,2026-10-24 14:47:00,loans,9,INSERT,anita.menon,"Created: customer_id=4, loan_type=Daily Loan, amount=159000.0, interest_rate=15.0, status=Pending"
+19,2026-10-25 09:23:00,customers,6,DELETE,ravi.kumar,"Deleted: name=Lakshmi Varma, phone=9732719211, city=Kozhikode"
+20,2026-10-25 10:49:00,customers,5,UPDATE,ravi.kumar,phone: 9702632297 -> 9509760584
+21,2026-10-25 15:18:00,customers,7,DELETE,anita.menon,"Deleted: name=Nikhil Raj, phone=9410727955, city=Kochi"
+22,2026-10-26 09:49:00,loans,10,INSERT,anita.menon,"Created: customer_id=5, loan_type=Personal Loan, amount=55000.0, interest_rate=15.0, status=Pending"
+23,2026-10-26 14:38:00,loans,5,DELETE,admin,"Deleted: customer_id=3, loan_type=Daily Loan, amount=170000.0, interest_rate=15.0, status=Pending"
+24,2026-10-26 16:26:00,customers,5,UPDATE,anita.menon,city: Thrissur -> Kochi
+25,2026-10-27 09:31:00,loans,11,INSERT,admin,"Created: customer_id=2, loan_type=Personal Loan, amount=24000.0, interest_rate=15.0, status=Pending"
+26,2026-10-27 12:04:00,customers,8,INSERT,admin,"Created: name=Lakshmi Varma, phone=9916690353, city=Kottayam"
+27,2026-10-27 13:38:00,loans,12,INSERT,ravi.kumar,"Created: customer_id=5, loan_type=Daily Loan, amount=118000.0, interest_rate=15.0, status=Pending"
+28,2026-10-27 15:56:00,loans,7,UPDATE,ravi.kumar,status: Pending -> Approved
+29,2026-10-28 09:57:00,loans,13,INSERT,suresh.pillai,"Created: customer_id=5, loan_type=Daily Loan, amount=68000.0, interest_rate=15.0, status=Pending"
+30,2026-10-28 12:19:00,customers,9,INSERT,admin,"Created: name=Nikhil Raj, phone=9133729406, city=Kozhikode"
+31,2026-10-28 13:25:00,loans,13,UPDATE,ravi.kumar,status: Pending -> Approved
+32,2026-10-28 17:57:00,customers,3,UPDATE,ravi.kumar,phone: 9734036506 -> 9562837684
+33,2026-10-29 09:26:00,loans,3,DELETE,suresh.pillai,"Deleted: customer_id=3, loan_type=Personal Loan, amount=164000.0, interest_rate=15.0, status=Pending"
+34,2026-10-29 10:27:00,customers,4,UPDATE,suresh.pillai,phone: 9200604502 -> 9675832441
+35,2026-10-29 12:08:00,loans,14,INSERT,suresh.pillai,"Created: customer_id=4, loan_type=Gold Loan, amount=150000.0, interest_rate=18.0, status=Pending"
+36,2026-10-29 13:28:00,customers,10,INSERT,admin,"Created: name=Sneha Thomas, phone=9200140141, city=Thrissur"
+37,2026-10-29 15:23:00,loans,15,INSERT,suresh.pillai,"Created: customer_id=3, loan_type=Gold Loan, amount=107000.0, interest_rate=18.0, status=Pending"
+38,2026-10-29 15:54:00,loans,9,UPDATE,suresh.pillai,status: Pending -> Approved
+39,2026-10-30 09:09:00,loans,11,UPDATE,ravi.kumar,status: Pending -> Approved
+40,2026-10-30 10:10:00,customers,11,INSERT,anita.menon,"Created: name=Vivek Menon, phone=9670292350, city=Thrissur"
+41,2026-10-30 11:09:00,loans,9,UPDATE,admin,amount: 159000.0 -> 70000.0; interest_rate: 15.0 -> 14.5
+42,2026-10-30 12:40:00,customers,12,INSERT,ravi.kumar,"Created: name=Divya Krishnan, phone=9805849060, city=Kottayam"
+43,2026-10-30 17:37:00,loans,16,INSERT,anita.menon,"Created: customer_id=5, loan_type=Vehicle Loan, amount=111000.0, interest_rate=14.0, status=Pending"
+44,2026-10-31 09:42:00,loans,1,UPDATE,anita.menon,status: Pending -> Approved
+45,2026-10-31 14:06:00,customers,13,INSERT,admin,"Created: name=Abdul Rahman, phone=9474745382, city=Kochi"
+46,2026-10-31 16:41:00,loans,7,UPDATE,anita.menon,status: Approved -> Disbursed
+47,2026-11-01 09:00:00,loans,17,INSERT,anita.menon,"Created: customer_id=2, loan_type=Personal Loan, amount=37000.0, interest_rate=15.0, status=Pending"
+48,2026-11-01 10:49:00,loans,13,UPDATE,anita.menon,status: Approved -> Disbursed
+49,2026-11-01 13:34:00,loans,13,UPDATE,suresh.pillai,status: Disbursed -> Closed
+50,2026-11-01 17:40:00,customers,14,INSERT,anita.menon,"Created: name=Priya George, phone=9381272327, city=Thrissur"
+51,2026-11-02 09:35:00,payments,1,INSERT,suresh.pillai,"Created: loan_id=7, amount=19500.0, paid_on=2026-11-02"
+52,2026-11-02 10:23:00,payments,2,INSERT,anita.menon,"Created: loan_id=7, amount=14000.0, paid_on=2026-11-02"
+53,2026-11-02 11:13:00,loans,18,INSERT,anita.menon,"Created: customer_id=9, loan_type=Daily Loan, amount=168000.0, interest_rate=15.0, status=Pending"
+54,2026-11-02 13:02:00,loans,16,DELETE,ravi.kumar,"Deleted: customer_id=5, loan_type=Vehicle Loan, amount=111000.0, interest_rate=14.0, status=Pending"
+55,2026-11-02 13:44:00,customers,4,UPDATE,ravi.kumar,city: Thrissur -> Palakkad
+56,2026-11-02 16:30:00,customers,4,UPDATE,ravi.kumar,city: Palakkad -> Thrissur
+57,2026-11-03 09:22:00,loans,6,UPDATE,anita.menon,amount: 172000.0 -> 178000.0; interest_rate: 18.0 -> 17.5
+58,2026-11-03 13:16:00,loans,8,UPDATE,anita.menon,status: Approved -> Disbursed
+59,2026-11-04 09:25:00,loans,19,INSERT,anita.menon,"Created: customer_id=12, loan_type=Vehicle Loan, amount=77000.0, interest_rate=14.0, status=Pending"
+60,2026-11-04 10:14:00,payments,3,INSERT,admin,"Created: loan_id=8, amount=21500.0, paid_on=2026-11-04"
+61,2026-11-04 15:05:00,loans,15,UPDATE,admin,status: Pending -> Approved
+62,2026-11-05 09:00:00,loans,8,UPDATE,ravi.kumar,status: Disbursed -> Closed
+63,2026-11-05 12:10:00,customers,14,UPDATE,admin,phone: 9381272327 -> 9532074125
+64,2026-11-05 15:11:00,loans,20,INSERT,ravi.kumar,"Created: customer_id=12, loan_type=Vehicle Loan, amount=155000.0, interest_rate=14.0, status=Pending"
+65,2026-11-06 09:25:00,loans,14,UPDATE,admin,status: Pending -> Approved
+66,2026-11-06 12:39:00,loans,18,UPDATE,suresh.pillai,status: Pending -> Approved
+67,2026-11-06 14:35:00,loans,2,UPDATE,admin,status: Approved -> Disbursed
+68,2026-11-06 17:05:00,loans,21,INSERT,anita.menon,"Created: customer_id=10, loan_type=Vehicle Loan, amount=166000.0, interest_rate=14.0, status=Pending"
+69,2026-11-07 09:29:00,loans,20,DELETE,suresh.pillai,"Deleted: customer_id=12, loan_type=Vehicle Loan, amount=155000.0, interest_rate=14.0, status=Pending"
+70,2026-11-07 14:12:00,loans,18,UPDATE,suresh.pillai,status: Approved -> Disbursed
+71,2026-11-07 15:36:00,loans,22,INSERT,suresh.pillai,"Created: customer_id=1, loan_type=Weekly Loan, amount=152000.0, interest_rate=15.0, status=Pending"
+72,2026-11-08 09:58:00,loans,15,UPDATE,admin,status: Approved -> Disbursed
+73,2026-11-08 14:14:00,loans,14,UPDATE,suresh.pillai,amount: 150000.0 -> 200000.0; interest_rate: 18.0 -> 17.5
+74,2026-11-09 09:16:00,loans,21,UPDATE,ravi.kumar,amount: 166000.0 -> 134000.0; interest_rate: 14.0 -> 13.5
+75,2026-11-09 11:48:00,loans,15,UPDATE,anita.menon,status: Disbursed -> Closed
+76,2026-11-09 15:01:00,loans,23,INSERT,admin,"Created: customer_id=2, loan_type=Vehicle Loan, amount=116000.0, interest_rate=14.0, status=Pending"
+77,2026-11-10 09:21:00,loans,1,UPDATE,suresh.pillai,status: Approved -> Disbursed
+78,2026-11-10 13:05:00,customers,15,INSERT,suresh.pillai,"Created: name=Sanjay Iyer, phone=9997356828, city=Kollam"
+79,2026-11-10 15:27:00,loans,24,INSERT,suresh.pillai,"Created: customer_id=13, loan_type=Personal Loan, amount=183000.0, interest_rate=15.0, status=Pending"
+80,2026-11-11 09:46:00,loans,4,UPDATE,ravi.kumar,amount: 41000.0 -> 146000.0; interest_rate: 15.0 -> 14.5
+81,2026-11-11 13:37:00,customers,16,INSERT,admin,"Created: name=Anjali Pillai, phone=9295130056, city=Kochi"
+82,2026-11-11 16:20:00,loans,19,UPDATE,suresh.pillai,status: Pending -> Approved
+83,2026-11-12 09:48:00,loans,2,UPDATE,suresh.pillai,status: Disbursed -> Closed
+84,2026-11-12 13:17:00,payments,4,INSERT,ravi.kumar,"Created: loan_id=1, amount=10000.0, paid_on=2026-11-12"
+85,2026-11-12 15:29:00,payments,5,INSERT,admin,"Created: loan_id=1, amount=20500.0, paid_on=2026-11-12"
+86,2026-11-12 17:50:00,payments,6,INSERT,suresh.pillai,"Created: loan_id=18, amount=25000.0, paid_on=2026-11-12"
+87,2026-11-13 09:49:00,customers,14,DELETE,ravi.kumar,"Deleted: name=Priya George, phone=9532074125, city=Thrissur"
+88,2026-11-13 13:31:00,payments,6,DELETE,suresh.pillai,"Deleted: loan_id=18, amount=25000.0, paid_on=2026-11-12"
+89,2026-11-13 16:05:00,payments,7,INSERT,admin,"Created: loan_id=1, amount=20500.0, paid_on=2026-11-13"
+90,2026-11-13 16:56:00,payments,8,INSERT,anita.menon,"Created: loan_id=18, amount=13000.0, paid_on=2026-11-13"
+91,2026-11-13 17:32:00,loans,17,UPDATE,suresh.pillai,amount: 37000.0 -> 172000.0; interest_rate: 15.0 -> 14.5
+92,2026-11-14 09:27:00,customers,16,UPDATE,ravi.kumar,city: Kochi -> Kottayam
+93,2026-11-14 14:04:00,loans,12,UPDATE,suresh.pillai,status: Pending -> Approved
+94,2026-11-14 15:18:00,loans,23,DELETE,anita.menon,"Deleted: customer_id=2, loan_type=Vehicle Loan, amount=116000.0, interest_rate=14.0, status=Pending"
+95,2026-11-15 09:01:00,loans,12,UPDATE,suresh.pillai,amount: 118000.0 -> 76000.0; interest_rate: 15.0 -> 14.5
+96,2026-11-15 11:54:00,payments,9,INSERT,anita.menon,"Created: loan_id=1, amount=15500.0, paid_on=2026-11-15"
+97,2026-11-15 16:34:00,payments,10,INSERT,ravi.kumar,"Created: loan_id=1, amount=5000.0, paid_on=2026-11-15"
+98,2026-11-16 09:14:00,payments,11,INSERT,suresh.pillai,"Created: loan_id=7, amount=20000.0, paid_on=2026-11-16"
+99,2026-11-16 12:40:00,customers,16,DELETE,suresh.pillai,"Deleted: name=Anjali Pillai, phone=9295130056, city=Kottayam"
+100,2026-11-16 15:28:00,loans,4,UPDATE,anita.menon,status: Pending -> Approved
+101,2026-11-16 17:32:00,loans,25,INSERT,ravi.kumar,"Created: customer_id=12, loan_type=Daily Loan, amount=82000.0, interest_rate=15.0, status=Pending"
+102,2026-11-17 09:53:00,loans,9,UPDATE,ravi.kumar,status: Approved -> Disbursed
+103,2026-11-17 12:43:00,customers,8,DELETE,admin,"Deleted: name=Lakshmi Varma, phone=9916690353, city=Kottayam"
+104,2026-11-17 17:24:00,loans,21,DELETE,admin,"Deleted: customer_id=10, loan_type=Vehicle Loan, amount=134000.0, interest_rate=13.5, status=Pending"
+105,2026-11-18 09:11:00,loans,4,UPDATE,admin,status: Approved -> Disbursed
